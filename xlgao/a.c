@@ -1,8 +1,8 @@
-#include<apue.h>
 #include<stdio.h>
+#include<stdlib.h>
 #include<fcntl.h>
 #define BUFFSIZE 4096
-
+#define err_sys(err) {printf(err);exit(1);}
 int
 main(int argc,char* argv[])
 {
